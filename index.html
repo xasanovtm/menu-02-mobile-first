@@ -1,26 +1,185 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Discover</title>
-    <link rel="stylesheet" href="main.css">
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
-<body>
-    <div class="container">
-        <div class="header">
-            <h1>Discover</h1>
-            <p>Your daily dose of design inspiration</p>
-        </div>
-        <div class="search">
 
-        </div>
-        <div class="content">
-
-        </div>
-        <div class="btn">
-            <span></span>
+<body class="body">
+    <div class="menu-body" id="menu-body">
+        <div class="container">
+            <header>
+                <h1>Discover</h1>
+                <p>Your daily dose of design inspiration</p>
+            </header>
+            <div class="search">
+                <p>Search</p>
+                <div class="search_btn">
+                    <div class="ico">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="26.262" height="26.262"
+                            viewBox="0 0 26.262 26.262">
+                            <g id="Icon_feather-search" data-name="Icon feather-search" transform="translate(-3 -3)">
+                                <path id="Path_17" data-name="Path 17"
+                                    d="M24.625,14.563A10.063,10.063,0,1,1,14.563,4.5,10.063,10.063,0,0,1,24.625,14.563Z"
+                                    fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="3" />
+                                <path id="Path_18" data-name="Path 18" d="M30.447,30.447l-5.472-5.472"
+                                    transform="translate(-3.306 -3.306)" fill="none" stroke="#fff"
+                                    stroke-linecap="round" stroke-linejoin="round" stroke-width="3" />
+                            </g>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <div class="content">
+                <div class="grid">
+                    <div class="box">
+                        <img src="img/Image.png" alt="">
+                        <div class="text">
+                            <span></span>
+                            <p>Lorem ipsum dolor sit.</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="img/Image-2.png" alt="">
+                        <div class="text">
+                            <span></span>
+                            <p>Lorem ipsum dolor sit.</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="img/Image-1.png" alt="">
+                        <div class="text">
+                            <span></span>
+                            <p>Lorem ipsum dolor sit.</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="img/Image-3.png" alt="">
+                        <div class="text">
+                            <span></span>
+                            <p>Lorem ipsum dolor sit.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="burger_btn" id="burger_btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </div>
     </div>
+
+    <div class="menu" id="menu">
+        <div class="user">
+            <img src="img/User.png" alt="User">
+            <a href="#">Frank Woodkin</a>
+        </div>
+        <div class="menu__list">
+            <ul class="list__items">
+                <li class="item">
+                    <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="23" height="25" viewBox="0 0 23 25">
+                            <g id="Home_Icon_" data-name="Home Icon " transform="translate(-54 -53)">
+                                <path id="Path_7" data-name="Path 7"
+                                    d="M4.5,11.05,15,3l10.5,8.05V23.7A2.317,2.317,0,0,1,23.167,26H6.833A2.317,2.317,0,0,1,4.5,23.7Z"
+                                    transform="translate(50.5 51)" fill="none" stroke="#fff" stroke-linecap="round"
+                                    stroke-linejoin="round" stroke-width="2" />
+                                <path id="Path_8" data-name="Path 8" d="M13.5,29.816V18h7.089V29.816"
+                                    transform="translate(48.455 47.184)" fill="none" stroke="#fff"
+                                    stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+                            </g>
+                        </svg>
+                        <p>Home</p>
+                    </a>
+                </li>
+                <li class="item"><a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28.004" height="20.011"
+                            viewBox="0 0 28.004 20.011">
+                            <path id="Cloud_Icon" data-name="Cloud Icon"
+                                d="M21.583,12.749H20.094A9.465,9.465,0,0,0,9.356,6.127a9.1,9.1,0,0,0-7.831,9.633A9.282,9.282,0,0,0,10.95,24H21.583a5.771,5.771,0,0,0,5.907-5.625,5.771,5.771,0,0,0-5.907-5.625Z"
+                                transform="translate(-0.486 -4.987)" fill="none" stroke="#fff" stroke-linecap="round"
+                                stroke-linejoin="round" stroke-width="2" />
+                        </svg>
+                        <p>Cloud</p>
+                    </a>
+                </li>
+                <li class="item"><a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="23" height="25" viewBox="0 0 23 25">
+                            <g id="Calender_Icon" data-name="Calender Icon" transform="translate(-54 -178)">
+                                <path id="Path_11" data-name="Path 11"
+                                    d="M6.833,6H23.167A2.313,2.313,0,0,1,25.5,8.293V24.344a2.313,2.313,0,0,1-2.333,2.293H6.833A2.313,2.313,0,0,1,4.5,24.344V8.293A2.313,2.313,0,0,1,6.833,6Z"
+                                    transform="translate(50.5 175.363)" fill="none" stroke="#fff" stroke-linecap="round"
+                                    stroke-linejoin="round" stroke-width="2" />
+                                <path id="Path_13" data-name="Path 13" d="M12,3V7.726" transform="translate(48.833 176)"
+                                    fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" />
+                                <path id="Path_14" data-name="Path 14" d="M4.5,15h21" transform="translate(50.5 173.2)"
+                                    fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" />
+                            </g>
+                        </svg>
+                        <p>Calendar</p>
+                    </a>
+                </li>
+                <li class="item"><a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="23" height="27" viewBox="0 0 23 27">
+                            <g id="Location_Icon" data-name="Location Icon" transform="translate(-53 -241)">
+                                <path id="Path_15" data-name="Path 15"
+                                    d="M25.5,11.727C25.5,19.682,15,26.5,15,26.5S4.5,19.682,4.5,11.727A10.366,10.366,0,0,1,15,1.5,10.366,10.366,0,0,1,25.5,11.727Z"
+                                    transform="translate(49.5 240.5)" fill="none" stroke="#fff" stroke-linecap="round"
+                                    stroke-linejoin="round" stroke-width="2" />
+                                <path id="Path_16" data-name="Path 16"
+                                    d="M20.589,14.045A3.545,3.545,0,1,1,17.045,10.5a3.545,3.545,0,0,1,3.545,3.545Z"
+                                    transform="translate(47.455 238.216)" fill="none" stroke="#fff"
+                                    stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+                            </g>
+                        </svg>
+                        <p>Location</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="settings">
+            <a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" viewBox="0 0 27 27">
+                    <g id="Settings_Icon" data-name="Settings Icon" transform="translate(128 140)">
+                        <path id="Path_5" data-name="Path 5"
+                            d="M20.589,17.045A3.545,3.545,0,1,1,17.045,13.5,3.545,3.545,0,0,1,20.589,17.045Z"
+                            transform="translate(-131.545 -143.545)" fill="none" stroke="#fff" stroke-linecap="round"
+                            stroke-linejoin="round" stroke-width="2" />
+                        <path id="Path_6" data-name="Path 6"
+                            d="M22.409,17.409a1.875,1.875,0,0,0,.375,2.068l.068.068a2.274,2.274,0,1,1-3.216,3.216l-.068-.068a1.89,1.89,0,0,0-3.2,1.341v.193a2.273,2.273,0,1,1-4.545,0v-.1a1.875,1.875,0,0,0-1.227-1.716,1.875,1.875,0,0,0-2.068.375l-.068.068a2.274,2.274,0,1,1-3.216-3.216l.068-.068a1.89,1.89,0,0,0-1.341-3.2H3.773a2.273,2.273,0,0,1,0-4.545h.1a1.875,1.875,0,0,0,1.716-1.227,1.875,1.875,0,0,0-.375-2.068l-.068-.068A2.274,2.274,0,1,1,8.364,5.239l.068.068a1.875,1.875,0,0,0,2.068.375h.091a1.875,1.875,0,0,0,1.136-1.716V3.773a2.273,2.273,0,0,1,4.545,0v.1a1.89,1.89,0,0,0,3.2,1.341l.068-.068a2.274,2.274,0,1,1,3.216,3.216l-.068.068a1.875,1.875,0,0,0-.375,2.068v.091a1.875,1.875,0,0,0,1.716,1.136h.193a2.273,2.273,0,1,1,0,4.545h-.1a1.875,1.875,0,0,0-1.716,1.136Z"
+                            transform="translate(-128.5 -140.5)" fill="none" stroke="#fff" stroke-linecap="round"
+                            stroke-linejoin="round" stroke-width="2" />
+                    </g>
+                </svg>
+                <p>Setting</p>
+            </a>
+            <p> | </p>
+            <a href="#">
+                <p>Logout</p>
+            </a>
+        </div>
+    </div>
+
+
+    <script type="text/javascript">
+
+        document.getElementById('burger_btn').onclick = function () {
+            document.getElementById('menu-body').classList.toggle('body__active');
+            document.getElementById('burger_btn').classList.toggle('bb__active');
+            document.getElementById('menu').classList.toggle('menu__active')
+        }
+
+    </script>
 </body>
+
 </html>
